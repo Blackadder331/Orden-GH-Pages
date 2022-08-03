@@ -48,7 +48,7 @@ const App = () => {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Route path="Orden-GH-Pages/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects/>} />
         <Route path="contact" element={<Contact />} />
@@ -83,7 +83,7 @@ const Layout = () => {
     <>
       <nav className="navbar navbar-expand-xxxl navbar-light fixed-top bg-white">
         <div className="container" id="nav-custom">
-            <a href="/">
+            <a href="Orden-GH-Pages/">
             <img
                 src={ORDENlogo}
                 className="logo"
