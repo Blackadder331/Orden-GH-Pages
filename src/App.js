@@ -48,7 +48,7 @@ const App = () => {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="Orden-GH-Pages/" element={<Home />} />
+        <Route path="Orden-GH-Pages" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects/>} />
         <Route path="contact" element={<Contact />} />
@@ -114,7 +114,7 @@ const Layout = () => {
                   data-target="#navbarCollapse"
                   className="nav-link"
                   activeclassname="active"
-                  to="/" 
+                  to="Orden-GH-Pages" 
                   onClick={'data-bs-target="#navbarCollapse"'}
                   >
                     Home
