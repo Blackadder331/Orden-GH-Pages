@@ -14,7 +14,7 @@ const HalfScreenLeadership = () => {
                     <h2>Leadership and vision</h2>
                     <p>Every community needs both nature and nurture. We are uniquely positioned to grow our region without losing our core identity.</p>
                     <br></br>
-                    <a href="/#/about" className="btn btn-primary btn-background-slide">
+                    <a href="Orden-GH-Pages/#/about" className="btn btn-primary btn-background-slide">
                         Read our story</a>
                 </div>
             </div>
