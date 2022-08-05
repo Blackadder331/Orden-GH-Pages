@@ -114,7 +114,7 @@ const Layout = () => {
     <>
       <nav className="navbar navbar-expand-xxxl navbar-light fixed-top bg-white">
         <div className="container" id="nav-custom">
-            <a href="Orden-GH-Pages/">
+            <a href="/">
             <img
                 src={ORDENlogo}
                 className="logo"
@@ -145,7 +145,7 @@ const Layout = () => {
                   data-target="#navbarCollapse"
                   className="nav-link"
                   activeclassname="active"
-                  to="Orden-GH-Pages" 
+                  to="/" 
                   onClick={'data-bs-target="#navbarCollapse"'}
                   >
                     Home

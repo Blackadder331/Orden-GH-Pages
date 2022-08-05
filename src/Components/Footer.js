@@ -20,7 +20,7 @@ const Footer = () => {
                         data-target="#navbarCollapse"
                         className="nav-link"
                         activeclassname="active"
-                        to="Orden-GH-Pages/" 
+                        to="/" 
                         onClick={'data-bs-target="#navbarCollapse"'}
                         >
                         {/* <a href=" "> */}
