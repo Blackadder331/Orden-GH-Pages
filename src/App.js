@@ -47,7 +47,34 @@ import interior9 from './Assets/interior-9.jpg';
 
 const App = () => {
   return (
-    <HashRouter>
+
+  // ATTEMPTED TO USE HASH ROUTING
+
+  //   <HashRouter>
+  //     {/* <Routes> */}
+  //   <Route
+  //     exact
+  //     path='/home'
+  //     component={Home}
+  //   />
+  //   <Route
+  //     exact
+  //     path='/about'
+  //     component={About}
+  //   />
+  //    <Route
+  //     exact
+  //     path='/projects'
+  //     component={Projects}
+  //   />
+  //    <Route
+  //     exact
+  //     path='/contact'
+  //     component={About}
+  //   />
+  //   {/* </Routes> */}
+  // </HashRouter>
+    
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
@@ -78,7 +105,7 @@ const App = () => {
         } /> 
       </Route>
     </Routes>
-    </HashRouter>
+    
   );
 };
 
