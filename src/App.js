@@ -145,7 +145,7 @@ const Layout = () => {
                   data-target="#navbarCollapse"
                   className="nav-link"
                   activeclassname="active"
-                  to="/" 
+                  to="Orden-GH-Pages/#/" 
                   onClick={'data-bs-target="#navbarCollapse"'}
                   >
                     Home
