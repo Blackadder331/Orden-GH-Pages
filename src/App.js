@@ -143,12 +143,10 @@ const Layout = () => {
                   <NavLink 
                   data-toggle="collapse"
                   data-target="#navbarCollapse"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse"
                   className="nav-link"
                   activeclassname="active"
                   to="/" 
-                  onClick={'data-bs-target="#navbarCollapse"'}
+                  onClick={'data-bs-toggle="collapse"'}
                   >
                     Home
                   </NavLink>
@@ -158,8 +156,6 @@ const Layout = () => {
                   data-toggle="collapse"
                   data-target="#navbarCollapse"
                   className="nav-link"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse"
                   activeclassname="active"
                   to="/about" 
                   onClick={'data-bs-target="#navbarCollapse"'}
@@ -172,8 +168,6 @@ const Layout = () => {
                   data-toggle="collapse"
                   data-target="#navbarCollapse"
                   className="nav-link"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse"
                   activeclassname="active"
                   to="/projects" 
                   onClick={'data-bs-target="#navbarCollapse"'}
@@ -186,8 +180,6 @@ const Layout = () => {
                   data-toggle="collapse"
                   data-target="#navbarCollapse"
                   className="nav-link"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse"
                   activeclassname="active"
                   to="/contact" 
                   onClick={'data-bs-target="#navbarCollapse"'}>
