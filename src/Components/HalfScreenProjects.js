@@ -12,7 +12,7 @@ const HalfScreenProjects = () => {
                     <h2>Projects</h2>
                     <p>We believe in targeted and systematic development. Each lot is part of a collective ecosystem that deserves careful consideration.</p>
                     <br></br>
-                    <a href="/projects" className="btn btn-primary btn-background-slide">View our homes</a>
+                    <a href="/#/projects" className="btn btn-primary btn-background-slide">View our homes</a>
                 </div>
             </div>
             <div className="col-md image-col-projects"></div>

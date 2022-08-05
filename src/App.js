@@ -114,7 +114,7 @@ const Layout = () => {
     <>
       <nav className="navbar navbar-expand-xxxl navbar-light fixed-top bg-white">
         <div className="container" id="nav-custom">
-            <a href="/">
+            <a href="Orden-GH-Pages/">
             <img
                 src={ORDENlogo}
                 className="logo"
