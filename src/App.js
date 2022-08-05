@@ -1,10 +1,10 @@
 import { Routes, Route, Outlet, NavLink } from 'react-router-dom';
-import { Switch, Link } from "react-router-dom";
-import React, { useState, useEffect } from 'react';
-import { HashRouter } from 'react-router-dom'
 import './index.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+import { Switch, Link } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { HashRouter } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -146,7 +146,7 @@ const Layout = () => {
                   className="nav-link"
                   activeclassname="active"
                   to="/" 
-                  onClick={'data-bs-toggle="collapse"'}
+                  // onClick={'data-bs-target="#navbarCollapse"'}
                   >
                     Home
                   </NavLink>
