@@ -47,6 +47,7 @@ import interior9 from './Assets/interior-9.jpg';
 
 const App = () => {
   return (
+    <HashRouter>
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
@@ -77,6 +78,7 @@ const App = () => {
         } /> 
       </Route>
     </Routes>
+    </HashRouter>
   );
 };
 
